@@ -11,6 +11,16 @@ function userChoices () {
     userLength = parseInt(prompt("Choose a number of characters in your password between 8 and 128"));
   } 
 
+  var userNums = confirm("Would you like numbers in your password?");
+  var userChars = confirm("Would you like special characters in your password?");
+  var userUpper = confirm("Would you like uppercase letters in your password?");
+  var userLower = confirm("Would you like lowercase letters in your password?");
+  
+  if (!userNums && !userChars && !userUpper && !userLower) {
+    alert("You must choose at least one character type for your password, the more varied the more secure!");
+    userChoices();
+  }
+  
   }
   
 // function to write password to the #password input
