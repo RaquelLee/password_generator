@@ -1,6 +1,6 @@
 # Password Generator
 
-A user-selected alphanumeric & special character secure password generator powered by JavaScript.
+### A user-selected alphanumeric & special character secure password generator powered by JavaScript.
 
 This was a fun project to complete following an introduction to JavaScript! I enjoyed considering all the ways I could structure the program, and took this project as a challenge to properly implement and build upon all programming logic concepts learned in class, more specifically in JavaScript: string methods, objects, functions, boolean logic, for and while loops. 
 
