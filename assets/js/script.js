@@ -59,6 +59,8 @@ function generatePassword () {
     sumPass += sumString.charAt(Math.floor(Math.random() * sumString.length));
   }
 
+  return sumPass;
+
 }
 
 // function to write password to the #password input
