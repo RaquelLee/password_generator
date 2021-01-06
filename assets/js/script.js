@@ -33,8 +33,8 @@ function generatePassword () {
 
   var selected = userChoices();
   var nums = "0123456789";
-  var upper = lower.toUpperCase();
   var lower = "abcdefghijklmnopqrstuvwxyz";
+  var upper = lower.toUpperCase();
   var special = " !#$%&'()*+,-./:;<=>?@[\]^_`{|}";
   var sumString = "";
   var sumPass = "";
