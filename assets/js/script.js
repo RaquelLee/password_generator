@@ -55,6 +55,10 @@ function generatePassword () {
     sumString += upper;
   }
 
+  for (i = 0; i < selected.userLength; i++) {
+    sumPass += sumString.charAt(Math.floor(Math.random() * sumString.length));
+  }
+
 }
 
 // function to write password to the #password input
