@@ -20,8 +20,13 @@ function userChoices () {
     alert("You must choose at least one character type for your password, the more varied the more secure!");
     userChoices();
   }
-  
+
+  var passwordOptions = {
+    userNums, userChars, userUpper, userLower, userLength
   }
+  return passwordOptions;
+
+}
   
 // function to write password to the #password input
 function writePassword() {
