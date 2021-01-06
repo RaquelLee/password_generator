@@ -21,13 +21,12 @@ function userChoices () {
     userChoices();
   }
 
-  var passwordOptions = {
+  var userInput = {
     userNums, userChars, userUpper, userLower, userLength
   }
-  return passwordOptions;
+  return userInput;
 
 }
-  
 // function to write password to the #password input
 function writePassword() {
 // function stored into variable for reference 
