@@ -27,6 +27,12 @@ function userChoices () {
   return userInput;
 
 }
+
+//function to create password based on received user input
+function generatePassword () {
+
+}
+
 // function to write password to the #password input
 function writePassword() {
 // function stored into variable for reference 
