@@ -12,17 +12,17 @@ function userChoices () {
   } 
 
   var userNums = confirm("Would you like numbers in your password?");
-  var userChars = confirm("Would you like special characters in your password?");
+  var userSpecial = confirm("Would you like special characters in your password?");
   var userUpper = confirm("Would you like uppercase letters in your password?");
   var userLower = confirm("Would you like lowercase letters in your password?");
   
-  if (!userNums && !userChars && !userUpper && !userLower) {
+  if (!userNums && !userSpecial && !userUpper && !userLower) {
     alert("You must choose at least one character type for your password, the more varied the more secure!");
     userChoices();
   }
 
   var userInput = {
-    userNums, userChars, userUpper, userLower, userLength
+    userNums, userSpecial, userUpper, userLower, userLength
   }
   return userInput;
 
