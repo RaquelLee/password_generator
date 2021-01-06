@@ -33,7 +33,7 @@ function generatePassword () {
 
   var selected = userChoices();
   var nums = "0123456789";
-  var upper = lowercase.toUpperCase();
+  var upper = lower.toUpperCase();
   var lower = "abcdefghijklmnopqrstuvwxyz";
   var special = " !#$%&'()*+,-./:;<=>?@[\]^_`{|}";
   var sumString = "";
