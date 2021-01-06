@@ -30,6 +30,14 @@ function userChoices () {
 
 //function to create password based on received user input
 function generatePassword () {
+  
+  var selected = userChoices();
+  var nums = "0123456789";
+  var upper = lowercase.toUpperCase();
+  var lower = "abcdefghijklmnopqrstuvwxyz";
+  var special = " !#$%&'()*+,-./:;<=>?@[\]^_`{|}";
+  var sumString = "";
+  var sumPass = "";
 
 }
 
