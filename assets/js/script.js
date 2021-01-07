@@ -43,7 +43,7 @@ function generatePassword () {
     sumString += nums;
   }
   
-  if (selected.userChars) {
+  if (selected.userSpecial) {
     sumString += special;
   }
   
